@@ -10,7 +10,7 @@ public class BloomTransition : MonoBehaviour
     public float bloomIncreaseSpeed = 5f;    // How fast bloom rises
     public float targetBloomIntensity = 20f; // Max bloom before switching
     public string nextSceneName;
-    //testing
+    //testing pull request
 
     private Bloom bloom;
     
