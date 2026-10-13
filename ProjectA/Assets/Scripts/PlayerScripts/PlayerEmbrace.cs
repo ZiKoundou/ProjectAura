@@ -54,7 +54,7 @@ public class PlayerEmbrace : MonoBehaviour
         timeManager = FindObjectOfType<TimeManager>();
         reticalManager = FindObjectOfType<EmbraceRetical>();
         playerCol = playerHealth.GetComponent<Collider>();
-        AudioManager.instance.PlayMusic("OutsideCastle");
+        
     }
 
     void EmbraceAnimationEndEvent()
